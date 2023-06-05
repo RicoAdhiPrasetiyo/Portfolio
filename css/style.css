@@ -35,7 +35,7 @@ li.pilihan {
 
 /*......Header...... */
 header {
-  padding-left: 140px;
+  padding-left: 160px;
   padding-top: 75px;
   padding-bottom: 110px;
 }
@@ -71,8 +71,8 @@ header .body {
 }
 
 .body .gambar img {
-  width: 370px;
-  height: 370px;
+  width: 390px;
+  height: 390px;
   border-radius: 100%;
   border: 2px solid black;
   padding-right: 8px;
@@ -96,7 +96,7 @@ header .body {
 
 /*......Tools......*/
 .tools {
-  margin-left: 110px;
+  margin-left: 140px;
   margin-top: 20px;
   margin-bottom: 100px;
 }
