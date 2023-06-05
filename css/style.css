@@ -1,0 +1,308 @@
+body {
+  background-image: url(/Images/background_geometrik.jpg);
+  background-size: cover;
+}
+
+/*......Navigasi Bar......*/
+.navbar {
+  background-color: #c0c0c0;
+}
+
+p.judul {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 12pt;
+  padding-left: 50px;
+}
+
+.collapse .nav-link {
+  color: #2d2d2d;
+}
+
+.collapse .nav-link:hover {
+  color: #ff4242;
+}
+
+ul.navbar-nav {
+  padding-right: 80px;
+}
+
+li.pilihan {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+/*......Header...... */
+header {
+  padding-left: 140px;
+  padding-top: 75px;
+  padding-bottom: 110px;
+}
+
+.nama h1 {
+  line-height: 0.5;
+  font-size: 48pt;
+  padding-bottom: 20px;
+}
+
+.nama h2 {
+  padding-top: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 37pt;
+  padding-left: 3px;
+}
+
+.nama p {
+  font-size: 17pt;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 4px;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+header .body {
+  display: flex;
+}
+
+.body .gambar {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.body .gambar img {
+  width: 370px;
+  height: 370px;
+  border-radius: 100%;
+  border: 2px solid black;
+  padding-right: 8px;
+}
+
+.nama a {
+  margin-top: 20px;
+  margin-left: 3px;
+  width: 200px;
+  font-size: 14pt;
+}
+
+.nama p a {
+  text-decoration: none;
+  transition: 0.5s ease-in-out 20ms;
+}
+
+.nama p a:hover {
+  color: red;
+}
+
+/*......Tools......*/
+.tools {
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+section hr {
+  width: 10%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+section .logotools {
+  display: flex;
+}
+
+section figure {
+  width: 12%;
+  margin-top: 2%;
+  margin-right: 80px;
+  margin-left: 60px;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+section figure:hover {
+  transform: scale(1.2);
+}
+
+section figure:active {
+  transform: scale(1.05);
+}
+
+.logotools img.html {
+  box-shadow: 0px 5px 10px 1px;
+  padding: 10px 6px 10px 6px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.logotools img.js {
+  box-shadow: 0px 5px 10px 1px;
+  padding: 10px 8px 10px 8px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.logotools img.css {
+  box-shadow: 0px 5px 10px 1px;
+  padding: 10px 6px 8px 6px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.logotools img.figma {
+  box-shadow: 0px 5px 10px 1px;
+  border-radius: 10%;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.logotools img.chrome {
+  box-shadow: 0px 5px 10px 1px;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.logotools img.bootstrap {
+  box-shadow: 0px 5px 10px 1px;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.logotools img.vscode {
+  box-shadow: 0px 5px 10px 1px;
+  border-radius: 10%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.logotools figure figcaption {
+  font-weight: bold;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 100%;
+  color: black;
+}
+
+/*......Footer......*/
+footer {
+  background-color: #2d2d2d;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+footer .koneksi a {
+  text-decoration: none;
+}
+
+footer .baris h1 {
+  position: inline-block;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5px;
+}
+
+footer .baris p.slogan {
+  position: inline-block;
+  text-align: center;
+  font-size: 12pt;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+footer .baris p {
+  font-size: 12pt;
+  color: #ffffff;
+}
+
+footer .email legend {
+  font-size: 20pt;
+  margin-right: 300px;
+}
+
+footer div.email {
+  display: flex;
+  margin-left: 60px;
+}
+
+footer fieldset {
+  padding-left: 40px;
+  padding-top: 20px;
+  border-radius: 8px;
+}
+
+footer .email button.kirim {
+  margin-left: 114px;
+  padding: 0px 20px 0px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 14pt;
+}
+
+footer .email button.kirim:hover {
+  color: white;
+  background-color: darkgrey;
+  transition: ease-in-out 0.2s;
+}
+
+footer .garis_vertikal {
+  border-left: 2px solid black;
+  margin-top: 40px;
+  margin-left: 70px;
+  height: 320px;
+}
+
+footer .email legend {
+  color: white;
+  margin-right: 250px;
+}
+
+footer .email ::placeholder {
+  font-size: 13pt;
+}
+
+footer .sosial-media .judul {
+  color: black;
+  text-align: center;
+  position: inline-block;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+footer .sosial-media hr {
+  margin-left: 151px;
+  width: 250px;
+  border-top: 3px solid black;
+  position: inline-block;
+  text-align: center;
+}
+
+footer .sosial-media p.lokasi {
+  text-align: center;
+  position: inline-block;
+  font-size: 16pt;
+  padding-bottom: 25px;
+}
+
+footer .sosial-media p.email {
+  text-align: center;
+  position: inline-block;
+}
+
+footer .sosial-media {
+  padding-top: 10px;
+  background-color: grey;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+  margin-left: 105px;
+}
+
+footer .sosial-media .logo_sosmed {
+  text-align: center;
+  position: inline-block;
+  width: 100%;
+}
