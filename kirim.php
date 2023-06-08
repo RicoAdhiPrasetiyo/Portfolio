@@ -6,7 +6,7 @@ require 'phpmailer/src/exception.php';
 require 'phpmailer/src/PHPmailer.php';
 require 'phpmailer/src/SMTP.php';
 
-if (isset($_POST["send"])) {
+if (isset($_POST["kirim"])) {
     $mail = new PHPmailer(true);
 
     $mail->isSMTP();
