@@ -76,6 +76,7 @@ header .body {
   border-radius: 100%;
   border: 2px solid black;
   padding-right: 8px;
+  margin-left: 30px;
 }
 
 .nama a {
