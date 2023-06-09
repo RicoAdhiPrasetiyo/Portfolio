@@ -252,7 +252,8 @@ footer .email button.kirim:hover {
 footer .garis_vertikal {
   border-left: 2px solid black;
   margin-top: 40px;
-  margin-left: 70px;
+  text-align: center;
+  position: inline-block;
   height: 320px;
 }
 
