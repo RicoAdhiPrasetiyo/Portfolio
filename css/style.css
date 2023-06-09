@@ -252,8 +252,7 @@ footer .email button.kirim:hover {
 footer .garis_vertikal {
   border-left: 2px solid black;
   margin-top: 40px;
-  text-align: center;
-  position: inline-block;
+  margin-left: 70px;
   height: 320px;
 }
 
@@ -275,11 +274,9 @@ footer .sosial-media .judul {
 }
 
 footer .sosial-media hr {
-  margin-left: 151px;
+  margin-left: 200px;
   width: 250px;
   border-top: 3px solid black;
-  position: inline-block;
-  text-align: center;
 }
 
 footer .sosial-media p.lokasi {
