@@ -271,12 +271,8 @@ footer .sosial-media .judul {
   position: inline-block;
   padding-right: 50px;
   padding-top: 25px;
-}
-
-footer .sosial-media hr {
-  margin-left: 400px;
-  width: 250px;
-  border-top: 3px solid black;
+  text-decoration: 3px underline #2d2d2d;
+  text-underline-offset: 18px;
 }
 
 footer .sosial-media p.lokasi {
