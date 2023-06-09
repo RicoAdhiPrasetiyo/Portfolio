@@ -15,7 +15,7 @@ if (isset($_POST["kirim"])) {
     $mail->Username = 'rikoadhi@gmail.com';
     $mail->Password = 'zknqbfkjrqyedrhx';
     $mail->SMTPSecure = 'ssl';
-    $mail->Port = 587;
+    $mail->Port = 465;
 
     $mail->setFrom('rikoadhi@gmail.com');
 
