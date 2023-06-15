@@ -59,7 +59,7 @@ header {
   padding-left: 4px;
   text-align: justify;
   line-height: 1.2;
-  margin-right: 180px;
+  margin-right: 150px;
 }
 
 header .body {
@@ -68,7 +68,7 @@ header .body {
 
 .body .gambar {
   margin-top: 30px;
-  margin-right: 40px;
+  margin-right: 60px;
 }
 
 .body .gambar img {
