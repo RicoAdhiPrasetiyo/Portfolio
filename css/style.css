@@ -301,7 +301,7 @@ footer .sosial-media .logo_sosmed {
     position: inline-block;
   }
 
-  /*....Nav Bar Max-Width:655px...*/
+  /*....Nav Bar Max-Width:600px...*/
 
   p.judul {
     padding-left: 0px;
@@ -309,7 +309,7 @@ footer .sosial-media .logo_sosmed {
     position: inline-block;
   }
 
-  /*....Header Max-Width:655px...*/
+  /*....Header Max-Width:600px...*/
   header .body {
     display: grid;
     width: 40%;
@@ -357,7 +357,7 @@ footer .sosial-media .logo_sosmed {
     margin-right: 135px;
   }
 
-  /*...Tools Max-Width:655px...*/
+  /*...Tools Max-Width:600px...*/
   .tools {
     margin: 10px 10px 10px 10px;
   }
@@ -448,7 +448,7 @@ footer .sosial-media .logo_sosmed {
     margin-bottom: 10px;
   }
 
-  /*...Footer Max-Width:655px...*/
+  /*...Footer Max-Width:600px...*/
   footer .baris {
     display: grid;
     padding-left: 0px;
